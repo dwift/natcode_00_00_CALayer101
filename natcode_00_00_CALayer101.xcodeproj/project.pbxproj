@@ -12,6 +12,7 @@
 		D20CAE9F1EC67E8700171F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20CAE9D1EC67E8700171F10 /* Main.storyboard */; };
 		D20CAEA11EC67E8700171F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20CAEA01EC67E8700171F10 /* Assets.xcassets */; };
 		D20CAEA41EC67E8700171F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20CAEA21EC67E8700171F10 /* LaunchScreen.storyboard */; };
+		D20CAECC1EC68E8800171F10 /* Sketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20CAECB1EC68E8800171F10 /* Sketch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D20CAEA01EC67E8700171F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D20CAEA31EC67E8700171F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D20CAEA51EC67E8700171F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20CAECB1EC68E8800171F10 /* Sketch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sketch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D20CAE991EC67E8700171F10 /* AppDelegate.swift */,
 				D20CAE9B1EC67E8700171F10 /* ViewController.swift */,
+				D20CAECB1EC68E8800171F10 /* Sketch.swift */,
 				D20CAE9D1EC67E8700171F10 /* Main.storyboard */,
 				D20CAEA01EC67E8700171F10 /* Assets.xcassets */,
 				D20CAEA21EC67E8700171F10 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D20CAECC1EC68E8800171F10 /* Sketch.swift in Sources */,
 				D20CAE9C1EC67E8700171F10 /* ViewController.swift in Sources */,
 				D20CAE9A1EC67E8700171F10 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				D20CAEAA1EC67E8700171F10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
