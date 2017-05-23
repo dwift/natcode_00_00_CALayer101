@@ -16,11 +16,14 @@ class AnimationView: UIView {
     func setupLayer() {
         
         //the backgroundcolor property gets set during viewWillLoad/viewDidLoad?
-        //apparently can't be updated after?
+        //apparently can't be updated after. If call setuplayer in parent
+        //view did load, can use background color but won't see it in 
+        //interfface builder. 
         let easyChangeBackgorund = CAGradientLayer()
         easyChangeBackgorund.frame = bounds
         easyChangeBackgorund.colors = [UIColor.blue.cgColor, UIColor.black.cgColor]
         layer.insertSublayer(easyChangeBackgorund, at: 0)
+
         
         layer.borderWidth = 100.0
         layer.borderColor = UIColor.red.cgColor

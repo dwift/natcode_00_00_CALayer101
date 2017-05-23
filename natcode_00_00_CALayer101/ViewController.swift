@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //dwiftView.setupLayer()
     }
 
     override func didReceiveMemoryWarning() {
